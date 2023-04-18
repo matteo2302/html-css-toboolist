@@ -68,16 +68,44 @@ li {
 .done {
   color: green;
   border: 1px solid green;
-  border-radius: 50%;
-  padding: 1px 3px;
-  font-size: 16px;
-  margin-right: 3px;
 }
 .main {
   color: white;
   font-size: 13px;
-  background-color: rgb(86, 207, 255);
+
   border-radius: 25%;
   padding: 5px 5px;
   border-color: transparent;
+}
+.done,
+.not-done {
+  border-radius: 50%;
+  font-size: 16px;
+  margin-right: 3px;
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.not-done {
+  color: red;
+  border: 1px solid red;
+}
+.editorial {
+  background-color: rgb(86, 207, 255);
+}
+.Q1 {
+  background-color: rgb(156, 84, 223);
+}
+.recruting {
+  background-color: rgb(0, 233, 175);
+}
+.mobile {
+  background-color: rgb(211, 159, 62);
+}
+.web {
+  background-color: rgb(252, 105, 154);
+}
+.sale {
+  background-color: rgb(162, 189, 8);
 }
